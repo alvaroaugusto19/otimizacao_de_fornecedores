@@ -1,0 +1,8 @@
+ortools>=9.10        # solver MILP (SCIP embutido, funciona no Windows sem instalar nada)
+scikit-learn>=1.4    # modelo de risco
+numpy>=1.26
+rapidfuzz>=3.0       # casamento de descrições
+mcp>=1.2             # servidor MCP (funciona com SDK 1.x e 2.x)
+httpx>=0.27          # chamada ao Groq
+anthropic>=0.40      # opcional: extração com Claude
+pytest>=8
